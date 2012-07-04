@@ -1,0 +1,147 @@
+Gloombah! - A simplified web-based dungeon crawler card game.
+
+Rules:
+  Players: 2-6
+  Playtime: 1-3 hours, depending on how big of dicks you are to your friends
+
+  Stat Types:
+    * Player
+      * Level/AP - Level and AP (Attack Points) are interchangable in the context
+                   of this game. The damage a player does is linked directly with
+                   his/her level and as such may be used in place of one another
+                   in the remainder of this guide.
+      * Armor    - Armor is determined by the quality of the Gear equipped by the
+                   Player. This stat is discussed below in the Gear section of
+                   Items.
+    * Monster
+      * Level/AP - This is the same as for Players, though Monsters do not equip
+                   Gear nor Weapons, so this is a static value which can only be
+                   changed using Status Effects.
+      * Damage   - This is the amount of damage the Player takes if he/she loses
+                   a fight with this monster. This is explained more in the Gear
+                   section of Items as well the Losing section of Fighting.
+      * XP       - This refers to the number of Levels/AP the player defeating this
+                   monster will obtain. If the monster is fought together by multiple
+                   Players the XP may be shared between the two, but only to the
+                   number shown on the Monster's card.
+      * Treasure - This number determines the number of Item cards a Player can draw
+                   if the Monster is defeated. As with XP, if multiple Players are
+                   fighting the monster together these items can be split between
+                   the parties up to the number of item cards allowed by the Monster.
+
+  Card Types:
+    * Class   - Warrior, Rogue or Mage. These classes determine the types of weapons
+                you can equip and use, as well as giving special bonuses/detriments
+                against certain enemies.
+    * Item    - Item cards are Gear, Weapons or Consumables. These ca considered to
+                be the "treasure" cards received generally from defeating monsters.
+    * Monster - The Monster cards are pulled randomly each player's turn. They will
+                contain 5 stats: Attack Rating, Damage, Effects, XP, and Treasure.
+
+  Items:
+    * Gear    - These are wearables that protect the player from lost fights. Each
+                piece of gear has a set amount of damage it can take before breaking,
+                shown in the upper left corner. If the damage taken is over that value
+                the gear will 'break' and head to the discard pile. If the gear absorbs
+                the damage and is not broken it will be 'damaged.' Damaged gear can
+                be 'repaired' at the beginning of the player's next turn, but will
+                'break' if it takes damage again. None of the damage absorbed by
+                gear will effect the player. Example: If a monster hits Player A
+                for 5 damage but he is wearing Light Chainmail, the Light Chainmail
+                will break and Player A takes 3 damage. If Player B takes 2 damage
+                while wearing Steel Plate, however, the Steel Plate is damaged and
+                turned on its side but Player B takes no damage.
+                *It is important to note that some Damage is considered Armor-Piercing
+                *and attacks the player directly. This causes armor to take no damage
+                *but will kill a well armored player as easily as if they were wearing
+                *nothing at all. Plan these fights accordingly.
+    * Weapons - Weapons can only be equipped by the allowed class, marked in the upper
+                right corner. The damage bonus for the weapon is shown in the upper
+                left corner with a plus (+) next to it. This value is added to the
+                Player's Attack Points (Level) when determining if the Player or
+                Monster wins the attack.
+    * Consumables - Consumables are single-use items which can be obtained the same
+                way as Gear and Weapons. Unlike Gear and Weapons, however, these
+                items can be either helpful or detremental to the Players fighting.
+                Certain consumables, such as Duplicate and Curse of Weakness, can
+                be used when other Players are fighting in order to assist the Monster
+                fighting the other Player. Damaging Consumables cannot be used
+                against friendly players, however, only those Consumables which
+                cause status effects, such as Destroy Armor, or those which are
+                meant specifically for monsters, such as Ambush. These items are
+                marked with a Backstab symbol on them for clarity.
+  Fighting:
+    * Attack  - The winner of each fight is determined by comparing the Attack Points
+                for each side. The attack points for Players is determined thusly:
+                  ((Player Level + Weapon Bonus) * Status Effects)  + Consumable Bonus
+                                  ( round up )                 
+                So a level 5 player with a +2 weapon using a +4 Exploding Vile with
+                a +50% Attack Buff will do (5+2) * 1.5 + 2 = 13AP. If they are
+                fighting a 12AP Monster, then they won the fight by 1AP.
+    * Winning - Winning a fight means the Player(s) aquire the XP shown on the
+                bottom of the enemy's card as well as getting to draw the number
+                of Treasure cards shown.
+    * Losing  - Losing a fight means the player will have to take Damage equal to
+                the Damage rating shown in the middle of the Monster card as well
+                as suffer any status effects for the next full round (explained below).
+                How damage is taken is described above under the "Gear" section.
+  Status Effects:
+    * Effect Cards - Effect cards only work for the fight they are played in and
+                dissipate at the end. This includes Blessings as well as Curses.
+    * Monster Effects - Effects caused by losing to a Monster stay in effect until
+                the end of the following round. This means every time the Player
+                attempts to attack, even when helping other players, they must
+                take into account the status effect they encurred during the
+                previous fight.
+  Death:
+    * Death happens whenever a player takes damage beyond their availble AP. This
+                means that if a player takes 6 points of damage at level 6 with
+                no armor then they are reduced to 0AP. The minimum required AP
+                is 1, so that player is, for all intents and purposes, dead. Death,
+                however, is fleeting in Gloombah, and the player is allowed to
+                discard all but 1 card in his hand and start over at level 1. Gear
+                and Weapons currently in use are discarded but the player is unable
+                to choose a new class.
+
+  Setup:
+    1. Each player draws one (1) "Class" card from the "Class" deck
+       then 5 item cards.
+    2. Players will then show their "Class" card and equip any available
+       Gear or Weapons drawn in step 1. Only 1 (one) Gear and 1 (one) Weapon
+       card can be equipped at any given time.
+
+  Player Turn:
+    1. Player can use any non-combat Consumable cards and Repair Armor
+    2. Player draws a Monster card into play
+    3. Player chooses whether to Fight or Run
+      * Players under Level 3 have the choice to Auto-Run with no penelty
+      * If the Player is Level 3 or above then they must roll 2d6 and attemp
+        to get a combined number of their number or higher
+      * If the Player chooses to run but does not wish to leave the escape
+        to change they may discard all cards in their hand and flee.
+    4. Fight
+      * The Player will fight either by choice or if they lose the roll above
+      * During the fight other players may interact with the Monster or Player
+        * Helpful players may offer support to the Player fighting in exchange
+          for part of the reward for winning the Fight. If the fight is lost,
+          however, both player share the same losing effects, the damage and
+          status effects are not split. Both are dealt the full power of the
+          winning Monster.
+        * Dubious players may use this time to play Item cards which can sway
+          the outcome of the fight against the Player fighting. Make sure and
+          only use those cards which are marked with the Backstab symbol.
+    5. Post-Fight
+      * Winning players may obtain the XP and Treasure items determined by the
+        monster card they just defeated
+      * Losing players will calculate whether or not they take damage based
+        on their armor values, whether they lose or keep their armor, and whether
+        they lose or keep their Level/AP. Status effects are doled out if
+        applicable.
+
+  Game Over:
+    1. The game is over when the first player reaches Level 12.
+      * Level 12 can only be reached by defeating a monster, meaning a player
+        cannot hold onto a Level Up card until level 11 to play it. Also,
+        the final level must be gained on the player's turn, meaning a Level 10
+        cannot help another Player in exchange for 2 levels and win the game.
+        The Level 10 must wait until a 2XP monster is drawn on their turn for play.
